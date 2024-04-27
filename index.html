@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Etiqueta META-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Patricia Arias" />
+    <meta http-equiv="cache-control" content="no-cache"/>
+    <meta name="copyright" content="astr0z.dev">
+    <!--Etiquetas LINK-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+    <title>Mi Encriptador</title>
+</head>
+<body>
+    <!--HEADER - ENCABEZADO-->
+    <header>
+        <img src="/img/Logo alura.png" alt="logo-alura" class="logo">  
+    </header>
+    <!--MAIN-->
+        <main>
+            <!--SECTION #1-->
+            <section>
+                <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aquí..."></textarea>
+                <div>
+                    <h6 class="inform">Solo minúsculas y sin acentos.</h6>
+                </div>
+                <div class="btn">
+                    <button class="btn-encriptar" onclick="btnEncriptar()" >Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <!--SECTION #2-->
+            <section>
+                <textarea class="msje" cols="30" rows="10"></textarea>
+                <div>
+                    <button class="btn-copiar">Copiar</button>
+                </div>
+            </section>
+        </main>
+<script src="/script.js"></script>        
+</body>
+</html>
